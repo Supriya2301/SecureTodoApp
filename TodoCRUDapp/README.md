@@ -22,7 +22,3 @@ The Entities are Users and Todo. The User has a One to Many Mapping with Todo, a
 The Service layers is responsible for handling logic.
 
 It makes use of JPA repository to handle CRUD operations.
-
-The App architecture can be understood by this flowchart below.
-
-![alt text](https://i.pinimg.com/originals/69/1c/65/691c65ed531fdbb0037ed5f8192abdd5.jpg)
