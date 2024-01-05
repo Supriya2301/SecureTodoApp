@@ -1,5 +1,5 @@
 # TodoCRUDappJava
-A basic CRUD app made using Spring Boot in Java REST API with h2 memory.
+A basic CRUD app made using Spring Boot in Java REST API with MYSQL Db.
 
 API Endpoints.
 
@@ -15,7 +15,7 @@ API Endpoints.
 
 6. DELETE - /users/{userId}/todos/{todoId} - delete the Todo with specific todo Id and userId.
 
-The app is made using Spring Boot, H2 Database, Hibernate and Junit. It is based on MVC architecture, which consists of Model, View and Controller.
+The app is made using Spring Boot, MYSQL Database, Hibernate and Spring Security. It is based on MVC architecture, which consists of Model, View and Controller.
 
 The Entities are Users and Todo. The User has a One to Many Mapping with Todo, as a single user can have multiple Todos.
 
